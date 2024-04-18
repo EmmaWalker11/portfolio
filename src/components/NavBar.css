@@ -1,23 +1,42 @@
   /* Navigation CSS */
-  .navMenu{
-    display: flex;
-    gap: none;
-    align-items: center;
-    color:rgb(13, 45, 78);
-    list-style-type: none;
-    gap: 30px;
-  
-  }
-  
-  .navItem{
-    text-decoration: none;
-    color:#e1b382;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
   
   .navBar{
+    height: 100px;
     display: flex;
-    background-color: #2d545e;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary);
   }
 
-  /* End of Nav CSS */
+  .navBar img{
+    width: 80px;
+  }
+
+  .navMenu {
+    display: flex;
+  }
+
+  .navItem {
+    padding: 2rem;
+  }
+
+
+
+
+/* now working on hamburger menu */
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 940px){
+    .navMenu{
+        position: absolute;
+        left: -100%;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+    

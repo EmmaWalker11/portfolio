@@ -11,7 +11,8 @@
 /* setting site colors */
 :root{
   --primary: #000000;
-  --secondary: #1B201E;
+  --secondary: #171A1B;
+  --grey: #1B201E;
   --green: #B1D8B7;
   --tan: #C4BAA6;
   --white: #F2EEE5;
