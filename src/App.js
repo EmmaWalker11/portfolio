@@ -1,5 +1,6 @@
 //Note to self: Use rfce to create new file templates
 
+import './App.css';
 import React from 'react'
 import About from './components/About'
 import Contact from './components/Contact'
@@ -11,13 +12,11 @@ function App() {
   return (
     <div>
         <main>
-            <h1>Tesing this works</h1>
-            <p>another test</p>
             <NavBar />
             <About />
-            <Projects />
             <Skills />
             <Contact />
+            <Projects />
         
         </main>
     </div>
