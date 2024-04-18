@@ -3,19 +3,47 @@ import './NavBar.css';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
+
     const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
+
+    const closeMobileNav = () => setClick(false);
+
+
     return (
         <>
-        <nav className='navbar'>
+         <nav className='navbar'>
             <div className='navMenu'>
                 <Link to="/" >Emma</Link>
-                <div className='navMenu'>
+                <div className='navMenuIcon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fa-solid fa-bars'} />
-                    {/* <Link to="/">About</Link> */}
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='navItem'> <a href='#home' className='navlink' onClick={closeMobileNav} >Home</a></li>
+                        <li className='navItem'> <a href='#about' className='navlink' onClick={closeMobileNav} >About</a></li>
+                        <li className='navItem'> <a href='#projects' className='navlink' onClick={closeMobileNav} >Projects</a></li>
+                        <li className='navItem'> <a href='#contact' className='navlink' onClick={closeMobileNav} >Contact</a></li>
+                    </ul>
                 </div>
             </div>
             
         </nav>
+
+        {/* <nav className='navbar'>
+            <div className='navMenu'>
+                <Link to="/" >Emma</Link>
+                <div className='navMenuIcon' onClick={handleClick}>
+                    <i className={click ? 'fas fa-times' : 'fa-solid fa-bars'} />
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='navItem'> <Link to="/" className='navlink' onClick={closeMobileNav} >Home</Link></li>
+                        <li className='navItem'> <Link to="/" className='navlink' onClick={closeMobileNav} >About</Link></li>
+                        <li className='navItem'> <Link to="/" className='navlink' onClick={closeMobileNav} >Projects</Link></li>
+                        <li className='navItem'> <Link to="/" className='navlink' onClick={closeMobileNav} >Contact</Link></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </nav> */}
 
         </>
         // <div className='NavBar'>
