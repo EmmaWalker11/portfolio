@@ -6,7 +6,7 @@ function Projects() {
     <>
         <section id="projects">
             <div>Projects</div>
-            {/* link github */}
+            {/* link github TODO */}
                 <h1>Apps I've built</h1>
                 <div>
                     {projects.map((project) => (<a href={project.link} key={project.image}>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills'
 
 function About() {
   return (
@@ -12,25 +13,22 @@ function About() {
             </div>
             <div>
                 <div>
-            <h1>
-            Hi, I'm Emma.
-            <br/>I love to build amazing
-            apps.
-          </h1>
-          {/* Get to know me section*/}
-          <p>
-            Talk about
-          </p>
 
-          {/* Resume */}
+                {/* Get to know me section*/}
+                <p>
+                    Talk about
+                </p>
 
-          {/* Links */}
-          <div>
-            <a href="#contact"> Work With Me </a>
-            <a href="#projects">See My Past Work</a>
-          </div>
-        </div>
-        
+                <Skills />
+
+                {/* Resume */}
+
+                {/* Links */}
+                <div>
+                    <a href="#contact"> Work With Me </a>
+                    <a href="#projects">See My Past Work</a>
+                </div>
+            </div>
       </div>
     </section>
     </>
