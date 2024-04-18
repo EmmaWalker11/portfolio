@@ -1,7 +1,42 @@
 
-  
+/* Importing fonts */
+/* Headings font */
+@import url('https://fonts.cdnfonts.com/css/svetze');
+/* font-family: 'Svetze', sans-serif; */ 
+/* Paragraph text font */
+@import url('https://fonts.cdnfonts.com/css/nunito-2');
+/* font-family: 'Nunito', sans-serif; */
+                                                
 
-  
+/* setting site colors */
+:root{
+  --primary: #000000;
+  --secondary: #1B201E;
+  --green: #B1D8B7;
+  --tan: #C4BAA6;
+  --white: #F2EEE5;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  color : var(--green);
+  background-color: var(--primary);
+  font-family: 'Nunito', sans-serif;
+                                                
+                                                
+  /* background-image: url('/public/images/concreteTexture.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image file */
+  /* background-size: cover; /* Ensures that the background image covers the entire element */
+  /* background-repeat: no-repeat;  */
+
+} 
 
  
   

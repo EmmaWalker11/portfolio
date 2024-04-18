@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './NavBar.css';
+// import './NavBar.css';
 // import { Link } from 'react-router-dom';
 
 function NavBar() {
@@ -13,7 +13,12 @@ function NavBar() {
 
     return (
         <>
-         <nav className='navbar'>
+        {/* <header>
+            <div>
+                <a href
+            </div>
+        </header> */}
+         <nav className='navBar'>
             <div className='navMenu'>
                 {/* <Link to="/" >Emma</Link> */}
                 <div className='navMenuIcon' onClick={handleClick}>

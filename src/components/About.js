@@ -1,10 +1,12 @@
 import React from 'react'
 import Skills from './Skills'
+import './About.css';
 
 function About() {
   return (
     <>
         <section id="about">
+            <div>About Me</div>
             {/* Introducing myself */}
             <div>
                 <h1>Hi! I'm Emma Walker </h1>

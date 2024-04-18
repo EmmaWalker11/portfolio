@@ -1,5 +1,5 @@
   /* Navigation CSS */
-  .NavMenu{
+  .navMenu{
     display: flex;
     gap: none;
     align-items: center;
@@ -9,13 +9,13 @@
   
   }
   
-  .NavMenu li a{
+  .navItem{
     text-decoration: none;
     color:#e1b382;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
-  .NavBar{
+  .navBar{
     display: flex;
     background-color: #2d545e;
   }
