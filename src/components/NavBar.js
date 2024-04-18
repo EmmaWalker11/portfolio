@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './NavBar.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function NavBar() {
 
@@ -15,7 +15,7 @@ function NavBar() {
         <>
          <nav className='navbar'>
             <div className='navMenu'>
-                <Link to="/" >Emma</Link>
+                {/* <Link to="/" >Emma</Link> */}
                 <div className='navMenuIcon' onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fa-solid fa-bars'} />
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>

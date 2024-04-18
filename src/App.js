@@ -13,21 +13,21 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-        <Router>
+        {/* <Router>
             <NavBar />
             <Routes>
                 <Route path="/" exact/>
             </Routes>
             
-        </Router>
-        {/* <main>
+        </Router> */}
+        <main>
             <NavBar />
             <About />
             <Skills />
             <Contact />
             <Projects />
         
-        </main> */}
+        </main>
     </>
   )
 }
