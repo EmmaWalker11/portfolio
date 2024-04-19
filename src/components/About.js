@@ -9,6 +9,7 @@ import Skills from './Skills'
 import './About.css';
 import { experience } from "./Data.js";
 import Leaf from '../assets/leaf.png';
+import Resume from '../assets/EmmaWalkerResume19_04_2024.pdf'
 import IconLinks from './IconLinks';
 
 function About() {
@@ -25,7 +26,7 @@ function About() {
             <div className='aboutWritingContainer'>
               <div className='getToKnowMeSection'>
                 <h3 className='sectionHeading'>Get to know me!</h3>
-                <p>Hi! I'm Emma (she/her), a software engineering student with a passion to learn and adapt to new technologies. I am a current third year university student at the University of Newcastle studying a Bachelors of Software Engineering (honours). I have currently undergone 16 courses and have a gpa of 6.3/7. I am Newcastle based and seeking casual employment and summer internships. </p>
+                <p>Hi! I'm Emma (she/her), a software engineering student with a passion to learn. I am a current third year university student at the University of Newcastle studying a Bachelors of Software Engineering (honours). I have currently undergone 16 courses and have a gpa of 6.3/7. I am Newcastle based and seeking casual employment and summer internships. </p>
                 <p>Some cool things about me. I am deaf in one ear. I am a dual citizen of both America and Australia. Outside of being a software engineer, I am an artist with both traditional and digital art. I’m a photographer. And I play a bit of guitar. I also love video games, so much so that I am the team coordinator for the University of Newcastles Esports club Valorant team.</p>
                 <p>Feel free to contact me! </p>
                 <div className='divOfButtons'>
@@ -33,7 +34,7 @@ function About() {
                     <a href='#contact' className='button'>Contact</a>
                   </div>
                   <div className='buttonTwo'>
-                    <button className='button'>Resume</button>
+                    <a href={Resume} target='_blank' className='button'>Resume</a>
                   </div>
                 </div>
                 <div className='leafToCenter'>

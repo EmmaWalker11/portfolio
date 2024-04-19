@@ -37,6 +37,21 @@
     font-family: 'Svetze', sans-serif; 
   }
 
+  #resumeButton{
+    color : var(--primary);
+  }
+
+  .button{
+    color : var(--primary);
+    background-color: var(--green);
+    font-family: 'Svetze', sans-serif;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 1rem;
+    justify-content: center;
+  
+}
+
 
 
 

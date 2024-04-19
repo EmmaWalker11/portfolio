@@ -2,6 +2,7 @@
 
 .aboutMeSectionContainer{
     background-color: var(--secondary);
+    padding-top: 20px;
 }
 
 .aboutHeader{
