@@ -14,6 +14,21 @@ function Projects() {
                 </div>
                 {/* link github TODO */}
                 <div className='projectsListContainer'>
+                        {projects.map((project) => (
+                        <div className='projectItem'>
+                            <div className='projectImage'>
+                                <img alt="gallery"src={project.image}/>
+                            </div>
+                            <div className='projectDetails'>
+                                <h3 className='projectTitle'>{project.title}</h3>
+                                <h4 className='projectSubtitle'>{project.subtitle}</h4>
+                                <p className='projectDescription'>{project.description}</p>
+                                <a href={project.link} class="button">View Project</a>
+                            </div>
+                        </div>
+                        ))}
+                </div>
+                {/* <div className='projectsListContainer'>
                         {projects.map((project) => (<a href={project.link} key={project.image}>
                         <div className='projectItem'>
                             <div className='projectImage'>
@@ -26,7 +41,7 @@ function Projects() {
                             </div>
                         </div>
                         </a>))}
-                </div>
+                </div> */}
             </div>
         </section>
     </>

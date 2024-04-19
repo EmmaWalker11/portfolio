@@ -11,6 +11,7 @@
     background-position: center; 
     background-color: rgba(255, 255, 255, 5); 
     padding-top: 10px;
+    padding-bottom: 40px;
     color: var(--primary);
     margin-bottom: 0;
     
@@ -48,15 +49,36 @@ hr {
     flex-direction: row;
 }
 
+.projectTitle{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'Svetze', sans-serif;
+}
+
+.projectSubtitle{
+    margin-top: 0;
+    font-size: 70%;
+}
+
+.projectDescription{
+    font-size: 80%;
+}
+
 .projectImage{
     margin-right: 50px;
-    
 }
 
 .projectDetails{
     width:300px;
     font-size: 150%;;
     margin-left:75px;
+}
+
+.button{
+    font-size: 90%;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 940px){
@@ -77,7 +99,23 @@ hr {
     .projectImage{
         transform: scale(1.5);
         margin: auto;
-        margin-top: 20px;
+        margin-top: 80px;
+    }
+
+    .button{
+        font-size: 130%;
+    }
+
+    .projectTitle{
+        font-size: 190%;
+    }
+    
+    .projectSubtitle{
+        font-size: 90%;
+    }
+    
+    .projectDescription{
+        font-size: 120%;
     }
     
 }
