@@ -7,27 +7,50 @@
 import React from 'react'
 import Skills from './Skills'
 import './About.css';
+import { experience } from "./Data.js";
 
 function About() {
   return (
     <>
-        <section id="about">
-            <div>About Me</div>
-            {/* Introducing myself */}
-            <div>
-                <h1>Hi! I'm Emma Walker </h1>
-                <h3>She/Her</h3>
-
+      <section id="about">
+          {/* Introducing myself */}
+        <div className='aboutMeSectionContainer'>
+          <div className='aboutHeader'>
+            <div id='aboutH2'>About Me</div>
+              <hr id='aboutHr'></hr>
+              <p id='aboutLine'>Here is a bit about me and some of my experience</p>
             </div>
-            <div>
-                <div>
+            <div className='aboutWritingContainer'>
+              <div className='getToKnowMeSection'>
+                <h3>Get to know me!</h3>
+                <p>Hi! I'm Emma (she/her), a software engineering student with a passion to learn and adapt to new technologies. I am a current third year university student at the University of Newcastle studying a Bachelors of Software Engineering (honours). I have currently undergone 16 courses and have a gpa of 6.3/7. I am Newcastle based and seeking casual employment and summer internships. </p>
+                <p>Some cool things about me. I am deaf in one ear. I am a dual citizen of both America and Australia. Outside of being a software engineer, I am an artist with both traditional and digital art. I’m a photographer. And I play a bit of guitar. I also love video games, so much so that I am the team coordinator for the University of Newcastles Esports club Valorant team.</p>
+                <p>Feel free to contact me! </p>
+              </div>
+              <div className='experienceSection'>
+                {experience.map((experience) => (
+                <div className='experienceItem'>
+                  <h5 className='experienceDate'>{experience.date}</h5>
+                  <h3 className='experienceTitle'>{experience.title}</h3>
+                  <h4 className='experienceSubtitle'>{experience.subtitle}</h4>
+                  <p className='experienceDescription'>{experience.description}</p>
+                  <p className='experienceSkills'>Key skills: {experience.skillsFromExperience}</p>        
+                
+                </div>
+                ))}
+              </div>
+            </div>
+            <Skills />
+          </div>
+            {/* <div>
+                <div> */}
 
                 {/* Get to know me section*/}
-                <p>
+                {/* <p>
                     Talk about
-                </p>
+                </p> */}
 
-                <Skills />
+                
 
                 {/* Resume */}
 
@@ -36,8 +59,8 @@ function About() {
                     <a href="#contact"> Work With Me </a>
                     <a href="#projects">See My Past Work</a>
                 </div> */}
-            </div>
-      </div>
+            {/* </div>
+      </div> */}
     </section>
     </>
   )

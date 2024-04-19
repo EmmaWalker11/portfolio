@@ -1,5 +1,26 @@
 /* About section css file */
 
-.projects{
-    
+.aboutMeSectionContainer{
+    background-color: var(--secondary);
+}
+
+.aboutHeader{
+    text-align: center;
+    color: var(--green);
+    max-width: 400px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#aboutH2{
+    font-family: 'Svetze', sans-serif; 
+    font-size: 300%;
+}
+
+#aboutLine{
+    color: var(--tan);
+}
+
+hr {
+    background-color: var(--green);
 }
