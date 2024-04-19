@@ -32,10 +32,10 @@ function About() {
                 {/* Resume */}
 
                 {/* Links */}
-                <div>
+                {/* <div>
                     <a href="#contact"> Work With Me </a>
                     <a href="#projects">See My Past Work</a>
-                </div>
+                </div> */}
             </div>
       </div>
     </section>
