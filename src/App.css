@@ -13,6 +13,7 @@
   --primary: #000000;
   --secondary: #171A1B;
   --grey: #1B201E;
+  --darkgreen: #385B4F;
   --green: #B1D8B7;
   --tan: #C4BAA6;
   --white: #F2EEE5;
@@ -53,7 +54,7 @@ h2{
 hr{
   border: none;
   width: 400px;
-  height: 3px;
+  height: 2px;
   background-color: var(--tan);
   border-radius: 10px;
   margin-bottom: 20px;
@@ -67,6 +68,10 @@ button{
   margin: 1rem;
   font-size: 1rem;
   justify-content: center;
+}
+
+img {
+  border: none;
 }
 
  

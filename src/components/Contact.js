@@ -8,7 +8,7 @@ function Contact() {
         <div className='contactContainer'>
             <div className='contactContainerDescription'>
                 <h2 id="contactTitle">Contact</h2>
-                <hr></hr>
+                <hr id="contactHr"></hr>
                 <p id="contactDescription">Feel free to contact me by submitting the form below and I will get back to you as soon as possible</p>
             </div>
             <div className='imageBehindForm'>
