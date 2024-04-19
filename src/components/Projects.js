@@ -14,7 +14,6 @@ function Projects() {
                 </div>
                 {/* link github TODO */}
                 <div className='projectsListContainer'>
-                    {/* <div className='projectItem'> */}
                         {projects.map((project) => (<a href={project.link} key={project.image}>
                         <div className='projectItem'>
                             <div className='projectImage'>
@@ -27,7 +26,6 @@ function Projects() {
                             </div>
                         </div>
                         </a>))}
-                    {/* </div> */}
                 </div>
             </div>
         </section>

@@ -17,38 +17,7 @@ export const projects = [
       image: logo192,
       link: "https://github.com/EmmaWalker11",
     },
-    {
-        title: "example",
-        subtitle: "React and Python",
-        description:
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora, explicabo quae quod deserunt eius sapiente praesentium.",
-        image: logo192,
-        link: "https://github.com/EmmaWalker11",
-      },
-      {
-        title: "example",
-        subtitle: "React and Python",
-        description:
-          " elit. enim sint nemo omnis voluptate exercitationem eius?",
-        image: logo192,
-        link: "https://github.com/EmmaWalker11",
-      },
-      {
-        title: "example",
-        subtitle: "React and Python",
-        description:
-          " elit. enim sint nemo omnis voluptate exercitationem eius?",
-        image: logo192,
-        link: "https://github.com/EmmaWalker11",
-      },
-      {
-        title: "example",
-        subtitle: "React and Python",
-        description:
-          " elit. enim sint nemo omnis voluptate exercitationem eius?",
-        image: logo192,
-        link: "https://github.com/EmmaWalker11",
-      },
+   
   ];
 
   export const Experience = [

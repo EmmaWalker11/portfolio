@@ -29,19 +29,15 @@
 }
 
 .skillsListContainer{
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     max-width: 700px;
-    /* flex-direction: column; */
-    /* align-items: center; */
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     margin-top: 40px;
-    /* width: 70vw; */
 }
 
 
@@ -49,7 +45,6 @@
     display:inline-block;
     font-weight: bold;
     padding: 10px;
-    /* background-color: blueviolet; */
     margin: 20px;
     border: 2px solid var(--green); /* Example border */
     text-align: center;
@@ -57,8 +52,4 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    /* text-align: center; */
-    /* justify-content: center;
-    align-items: center;  */
-
 }
