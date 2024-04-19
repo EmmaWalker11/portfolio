@@ -69,13 +69,13 @@ hr {
 .projectImage{
     margin-right: 50px;
     margin-bottom: 50px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.7);
     
 }
 img{
     width: 400px;
     height: auto;
     margin:auto;
-    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.7);
 }
 
 .projectDetails{
@@ -142,7 +142,6 @@ img{
         width: 300px;
         height: auto;
         margin:auto;
-        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.7);
     }
     
 }
