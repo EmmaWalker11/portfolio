@@ -49,6 +49,7 @@
     font-size: 1.5vw;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    padding-top:0;
     font-family: 'Nunito', sans-serif;
 }
 

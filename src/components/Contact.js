@@ -5,8 +5,12 @@ function Contact() {
   return (
     <section id="contact">
         <div className='contactContainer'>
-            <h2>Contact</h2>
-            <hr></hr>
+            <div className='contactContainerDescription'>
+                <h2 id="contactTitle">Contact</h2>
+                <hr></hr>
+                <p id="contactDescription">Feel free to contact me by submitting the form below and I will get back to you as soon as possible</p>
+            </div>
+            
           {/* <iframe
             width="100%"
             height="100%"
@@ -23,7 +27,7 @@ function Contact() {
                     <input type="text" className='contactInputs' id="name" name="name" placeholder='Your name' required/>
                     <input type="email" className='contactInputs' id="email" name="email" placeholder='Your email' required/>
                     <textarea  className='contactInputs' id="message"name="message" placeholder='Your message' required/>
-                    <button type="submit">Submit</button>
+                    <button type="submit" class="submit-button">Submit</button>
                 </form>
             </div>
             

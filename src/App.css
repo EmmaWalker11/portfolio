@@ -47,11 +47,12 @@ h1{
 
 h2{
   font-family: 'Svetze', sans-serif;
+  padding-top: 20px;
 }
 
 hr{
   border: none;
-  width: 250px;
+  width: 400px;
   height: 3px;
   background-color: var(--tan);
   border-radius: 10px;
