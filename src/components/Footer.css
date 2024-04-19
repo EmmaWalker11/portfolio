@@ -1,0 +1,19 @@
+
+/* FileName: Footer.css
+   Author: Emma Walker
+   Date last modified: 19/04/2024
+   Description: A css file for making items in the footer display nicely
+*/
+.footerContainer{
+    background-color: var(--primary);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-bottom: 50px;
+}
+
+.contactDetails{
+    color: var(--tan);
+}

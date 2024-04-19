@@ -6,6 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
+import Footer from './components/Footer';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import IntroImage from './components/IntroImage';
@@ -27,6 +28,7 @@ function App() {
             <About />
             <Projects />
             <Contact />
+            <Footer />
         
         </main>
     </>
