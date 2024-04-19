@@ -24,3 +24,132 @@
 hr {
     background-color: var(--green);
 }
+
+.aboutWritingContainer{
+    display: flex;
+    justify-content:space-around;
+    /* align-items: center; */
+    flex-direction: row;
+    color: var(--tan);
+}
+
+.sectionHeading{
+    font-family: 'Svetze', sans-serif; 
+    font-size: 125%;
+    color: var(--green);
+}
+
+.getToKnowMeSection{
+    width:600px;
+    font-size: 150%;
+    margin-left:50px;
+}
+
+.experienceSection{
+    width:800px;
+    font-size: 150%;
+    margin-right:50px;
+    margin-left:50px;
+    
+}
+
+.experienceItem{
+    margin-bottom: 60px;
+}
+
+.experienceDate{
+    margin: 0;
+    line-height: 0.5;
+    
+}
+
+.experienceTitle{
+    margin: 0;
+    line-height: 1.7;
+    font-weight: bold;
+    font-family: 'Svetze', sans-serif;
+}
+
+.experienceSubtitle{
+    font-style: italic;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.buttonSection{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 50px;
+
+}
+.button{
+    margin: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    width: 130px;
+}
+
+.buttonOne{
+    display: flex;
+    justify-content:center;
+}
+
+.buttonTwo{
+    display: flex;
+    justify-content:center;
+}
+
+.leafImage{
+    margin: 1;
+    width: 300px;
+    height: auto;
+}
+
+.leafToCenter{
+    display: flex;
+    justify-content:center;
+}
+
+.iconsToCenter{
+    display: flex;
+    justify-content:center;
+    /* background-color: aquamarine; */
+}
+
+
+
+
+@media screen and (max-width: 940px){
+    .aboutWritingContainer{
+        /* display: flex;
+        justify-content:space-around;
+        
+        flex-direction: row;
+        color: var(--tan); */
+        flex-wrap: wrap;
+    }
+
+    .getToKnowMeSection{
+        width:800px;
+        font-size: 150%;
+        margin-left:50px;
+        margin-right:50px;
+    }
+    
+    .experienceSection{
+        width:800px;
+        font-size: 150%;
+        margin-right:50px;
+        margin-left:50px;
+    }
+
+    .divOfButtons{
+        display: flex;
+        justify-content:center;
+        flex-direction: row;
+    }
+    
+}
