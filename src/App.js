@@ -8,6 +8,7 @@ import NavBar from './components/NavBar'
 import Projects from './components/Projects'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import IntroImage from './components/IntroImage';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         </Router> */}
         <main>
             <NavBar />
+            <IntroImage />
             <About />
             <Projects />
             <Contact />

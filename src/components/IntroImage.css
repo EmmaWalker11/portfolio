@@ -1,0 +1,75 @@
+.imageContainer{
+    /* position: relative;
+    text-align: center;
+    display: inline-block; */
+    /* max-width: 100%;
+    overflow: hidden; */
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treesImage{
+    /* display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain; */
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    transform: scale(1.55);
+}
+
+.imageTextOverlay{
+    position: absolute;
+    object-fit: contain;
+    /* top: 30%; 
+    left: 50%;  */
+    text-align: center;
+    line-height: 0.001;
+    font-size: 2vw;
+    /* transform: translate(-50%, -50%);  */
+    /* background-color: rgba(255, 255, 255, 0.5);  */
+    /* padding: 10px;  */
+}
+
+.imageTextCaption{
+    /* width: 90%; */
+    line-height: 1;
+    height: auto;
+    text-align: center;
+}
+
+#emma {
+    font-size: 5vw;
+}
+
+#softwareEngineeringStudent{
+    color: var(--tan);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 940px){
+    .treesImage{
+        /* transform: none; */
+        width:100%;
+        height: 55vw;
+    }
+
+    #emma {
+        font-size: 8vw;
+    }
+
+    #softwareEngineeringStudent{
+        font-size: 3vw;
+    }
+}
