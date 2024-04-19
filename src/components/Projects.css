@@ -51,6 +51,7 @@ hr {
 
 .projectTitle{
     margin-bottom: 0;
+    margin-top: 20px;
     font-weight: bold;
     font-family: 'Svetze', sans-serif;
 }
@@ -62,10 +63,19 @@ hr {
 
 .projectDescription{
     font-size: 60%;
+    margin-bottom: 20px;
 }
 
 .projectImage{
     margin-right: 50px;
+    margin-bottom: 50px;
+    
+}
+img{
+    width: 400px;
+    height: auto;
+    margin:auto;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.7);
 }
 
 .projectDetails{
@@ -100,6 +110,15 @@ hr {
         transform: scale(1.5);
         margin: auto;
         margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .projectDetails{
+        width:450px;
+        font-size: 150%;
+        margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .button{
@@ -116,6 +135,14 @@ hr {
     
     .projectDescription{
         font-size: 100%;
+        margin-bottom: 10px;
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+        margin:auto;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.7);
     }
     
 }

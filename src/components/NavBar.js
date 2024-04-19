@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 // import React from 'react';
-import Logo from '../assets/logo192.png';
+import Logo from '../assets/treeLogo.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Resume from '../assets/EmmaWalkerResume19_04_2024.pdf'
 import './NavBar.css';

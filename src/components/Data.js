@@ -1,4 +1,4 @@
-import logo192 from '../assets/logo192.png';
+import emmaWalkerWebsiteImg from '../assets/emmaWalkerWebsite.png';
 
 export const projects = [
     {
@@ -6,7 +6,7 @@ export const projects = [
       subtitle: "React, JavaScript, HTML, CSS",
       description:
         "This website was made by me. I used React to create it. To create the website I needed to do research on what other software engineer’s have used for their portfolios. After I gained an understanding on typical site structure of the site being one page with an about section, skills, projects, and a contact form. I then used Canva’s website builder as a starting point to map out how I wanted the website to look like. Then I started building this site. Overall it was a great experience to work on. There were challenges while building, but with help of the internet and peers I was able to overcome them to create the site you see now.        ",
-      image: logo192,
+      image: emmaWalkerWebsiteImg,
       link: "https://github.com/EmmaWalker11/portfolio",
     },
   ];

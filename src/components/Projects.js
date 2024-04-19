@@ -19,7 +19,6 @@ function Projects() {
                     <hr id='projectHr'></hr>
                     <p id='projectLine'>Here you will find some projects that I have done or I am currently working on</p>
                 </div>
-                {/* link github TODO */}
                 <div className='projectsListContainer'>
                         {projects.map((project) => (
                         <div className='projectItem'>
