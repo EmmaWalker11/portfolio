@@ -49,6 +49,7 @@
     font-size: 1.5vw;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* Making it so the text and image is bigger when in mobile mode */
