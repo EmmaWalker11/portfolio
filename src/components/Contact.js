@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.css';
-import Trees from '../images/SoundwaveTreesSeperate.jpg';
 
 function Contact() {
   return (

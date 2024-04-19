@@ -8,7 +8,7 @@ import React from 'react'
 import Skills from './Skills'
 import './About.css';
 import { experience } from "./Data.js";
-import Leaf from '../images/leaf.png';
+import Leaf from '../assets/leaf.png';
 import IconLinks from './IconLinks';
 
 function About() {

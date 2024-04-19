@@ -5,7 +5,7 @@
 //      This is at the top of the webpage with my name and a small description of myself
 
 import React from 'react'
-import Trees from '../images/SoundwaveTreesMiddle.jpg';
+import Trees from '../assets/SoundwaveTreesMiddle.jpg';
 import './IntroImage.css';
 
 function IntroImage() {
