@@ -27,7 +27,7 @@ const NavBar = () => {
                 <li className='navItem'><a href='#about' onClick={handleCloseNavbar}>About</a></li>
                 <li className='navItem'><a href='#projects'onClick={handleCloseNavbar}>Projects</a></li>
                 <li className='navItem'><a href='#contact'onClick={handleCloseNavbar}>Contact</a></li>
-                <li className='navItem'><a href={Resume} target='_blank' className='button' id='resumeButton' onClick={handleCloseNavbar}>Resume</a></li>
+                <li className='navItem'><a href={Resume} target='_blank' rel='noreferrer' className='button' id='resumeButton' onClick={handleCloseNavbar}>Resume</a></li>
             </ul>
             <div className='hamburger' onClick={handleClick}>
                 {click ? (<FaTimes size={30}/>) : <FaBars size={30}/>}

@@ -1,4 +1,8 @@
-/* About section css file */
+/* FileName: About.css
+   Author: Emma Walker
+   Date last modified: 20/04/2024
+   Description: A css file for formatting the about section of the site.
+*/
 
 .aboutMeSectionContainer{
     background-color: var(--secondary);

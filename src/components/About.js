@@ -34,7 +34,7 @@ function About() {
                     <a href='#contact' className='button'>Contact</a>
                   </div>
                   <div className='buttonTwo'>
-                    <a href={Resume} target='_blank' className='button'>Resume</a>
+                    <a href={Resume} target='_blank' rel="noreferrer" className='button'>Resume</a>
                   </div>
                 </div>
                 <div className='leafToCenter'>
