@@ -1,6 +1,6 @@
 //    FileName: About.js
 //    Author: Emma Walker
-//    Date last modified: 19/04/2024
+//    Date last modified: 20/04/2024
 //    Description: A container for the about section on the site.
 //     It includes a short description on myself, my skills, and some links to other parts of the site and my resume.
 
