@@ -6,11 +6,13 @@
 
 // imports
 import './Contact.css';
-import React, { useRef } from 'react';
+import React, { useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
-
+    const [name, setName] =useState("");
+    const [email, setEmail] =useState("");
+    const [message, setMessage] =useState("");
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -23,10 +25,14 @@ export const Contact = () => {
           .then(
             () => {
               console.log('SUCCESS!');
-              alert('Thank you for your email');
+              alert('Thank you for your email ' + name);
+              setName('');
+              setEmail('');
+              setMessage('');
             },
             (error) => {
               console.log('FAILED...', error.text);
+              alert('Sorry your email wasnt able to go through');
             },
           );
       };
@@ -45,10 +51,10 @@ export const Contact = () => {
             <div className='imageBehindForm'>
                  <div className='contactFormContainer'>
                 <form name="contact" ref={form} onSubmit={sendEmail}>
-                    <input type="text" className='contactInputs' id="name" name="user_name" placeholder='Your name' required/>
-                    <input type="email" className='contactInputs' id="email" name="user_email" placeholder='Your email' required/>
-                    <textarea  className='contactInputs' id="message" name="message" placeholder='Your message' required/>
-                    <input type="submit" value="Send" className='button' />
+                    <input type="text" className='contactInputs' id="name" name="user_name" placeholder='Your name' value={name} onChange={(e) => setName(e.target.value)} required/>
+                    <input type="email" className='contactInputs' id="email" name="user_email" placeholder='Your email' value={email} onChange={(e) => setEmail(e.target.value)} required/>
+                    <textarea  className='contactInputs' id="message" name="message" placeholder='Your message' value={message} onChange={(e) => setMessage(e.target.value)} required/>
+                    <input type="submit" value="Send" className='button' id="submit-button" />
                     {/* <button type="submit" class="submit-button">Submit</button> */}
                 </form>
             </div>

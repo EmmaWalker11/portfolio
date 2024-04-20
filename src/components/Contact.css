@@ -76,8 +76,8 @@ form input, form textarea{
     font-family: 'Nunito', sans-serif;
 }
 
-.submit-button{
-    margin-left:90px;
+#submit-button{
+    margin-left:70px;
     font-size: 160%;
    
 }
