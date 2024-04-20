@@ -5,10 +5,32 @@
 //     It includes a short description of telling the user to contact me and a form for them to fill out
 
 // imports
-import React from 'react'
 import './Contact.css';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-function Contact() {
+export const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+          .sendForm('service_ws4w95v', 'template_nho4dpm', form.current, {
+            publicKey: 'U5-HPBSBQI1ijyJhc',
+          })
+          .then(
+            () => {
+              console.log('SUCCESS!');
+              alert('Thank you for your email');
+            },
+            (error) => {
+              console.log('FAILED...', error.text);
+            },
+          );
+      };
+
   return (
     <section id="contact">
         {/* container */}
@@ -22,11 +44,12 @@ function Contact() {
             {/* form */}
             <div className='imageBehindForm'>
                  <div className='contactFormContainer'>
-                <form netlify name="contact">
-                    <input type="text" className='contactInputs' id="name" name="name" placeholder='Your name' required/>
-                    <input type="email" className='contactInputs' id="email" name="email" placeholder='Your email' required/>
-                    <textarea  className='contactInputs' id="message"name="message" placeholder='Your message' required/>
-                    <button type="submit" class="submit-button">Submit</button>
+                <form name="contact" ref={form} onSubmit={sendEmail}>
+                    <input type="text" className='contactInputs' id="name" name="user_name" placeholder='Your name' required/>
+                    <input type="email" className='contactInputs' id="email" name="user_email" placeholder='Your email' required/>
+                    <textarea  className='contactInputs' id="message" name="message" placeholder='Your message' required/>
+                    <input type="submit" value="Send" className='button' />
+                    {/* <button type="submit" class="submit-button">Submit</button> */}
                 </form>
             </div>
             </div>
