@@ -4,6 +4,8 @@
    Date last modified: 19/04/2024
    Description: A css file for making items in the footer display nicely
 */
+
+/* Container for footer */
 .footerContainer{
     background-color: var(--primary);
     height: 100px;
@@ -14,6 +16,7 @@
     padding-bottom: 50px;
 }
 
+/* Changing the color of contact details */
 .contactDetails{
     color: var(--tan);
 }
