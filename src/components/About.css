@@ -4,11 +4,13 @@
    Description: A css file for formatting the about section of the site.
 */
 
+/* Container for section */
+
 .aboutMeSectionContainer{
     background-color: var(--secondary);
     padding-top: 20px;
 }
-
+/* Configuring the header part */
 .aboutHeader{
     text-align: center;
     color: var(--green);
@@ -30,10 +32,11 @@ hr {
     background-color: var(--green);
 }
 
+/* Container for the content about me. Splitting it into 2 ie get to know me and experience*/
+
 .aboutWritingContainer{
     display: flex;
     justify-content:space-around;
-    /* align-items: center; */
     flex-direction: row;
     color: var(--tan);
 }
@@ -44,51 +47,20 @@ hr {
     color: var(--green);
 }
 
+/* Get to know me section */
 .getToKnowMeSection{
     width:600px;
     font-size: 150%;
     margin-left:50px;
 }
 
-.experienceSection{
-    width:800px;
-    font-size: 150%;
-    margin-right:50px;
-    margin-left:50px;
-    
-}
-
-.experienceItem{
-    margin-bottom: 60px;
-}
-
-.experienceDate{
-    margin: 0;
-    line-height: 0.5;
-    
-}
-
-.experienceTitle{
-    margin: 0;
-    line-height: 1.7;
-    font-weight: bold;
-    font-family: 'Svetze', sans-serif;
-}
-
-.experienceSubtitle{
-    font-style: italic;
-    line-height: 1;
-    font-weight: bold;
-}
-
 .buttonSection{
     display: flex;
     justify-content:center;
-    /* align-items: center; */
     flex-direction: column;
     margin: 50px;
-
 }
+
 .button{
     margin: 50px;
     margin-bottom: 15px;
@@ -131,19 +103,45 @@ hr {
 .iconsToCenter{
     display: flex;
     justify-content:center;
-    /* background-color: aquamarine; */
+}
+
+/* experience section */
+.experienceSection{
+    width:800px;
+    font-size: 150%;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.experienceItem{
+    margin-bottom: 60px;
+}
+
+.experienceDate{
+    margin: 0;
+    line-height: 0.5;
+}
+
+.experienceTitle{
+    margin: 0;
+    line-height: 1.7;
+    font-weight: bold;
+    font-family: 'Svetze', sans-serif;
+}
+
+.experienceSubtitle{
+    font-style: italic;
+    line-height: 1;
+    font-weight: bold;
 }
 
 
 
 
+/* If in mobile mode everthing is displayed in a coloumn */
+
 @media screen and (max-width: 940px){
     .aboutWritingContainer{
-        /* display: flex;
-        justify-content:space-around;
-        
-        flex-direction: row;
-        color: var(--tan); */
         flex-wrap: wrap;
     }
 

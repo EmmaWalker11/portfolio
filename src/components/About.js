@@ -16,14 +16,16 @@ function About() {
   return (
     <>
       <section id="about">
-          {/* Introducing myself */}
+          {/* Section container */}
         <div className='aboutMeSectionContainer'>
+          {/* Header for section */}
           <div className='aboutHeader'>
             <div id='aboutH2'>About Me</div>
               <hr id='aboutHr'></hr>
               <p id='aboutLine'>Here is a bit about me and some of my experience</p>
             </div>
             <div className='aboutWritingContainer'>
+              {/* Get to know me section */}
               <div className='getToKnowMeSection'>
                 <h3 className='sectionHeading'>Get to know me!</h3>
                 <p>Hi! I'm Emma (she/her), a software engineering student with a passion to learn. I am a current third year university student at the University of Newcastle studying a Bachelors of Software Engineering (honours). I have currently undergone 16 courses and have a gpa of 6.3/7. I am Newcastle based and seeking casual employment and summer internships. </p>
@@ -46,6 +48,7 @@ function About() {
                 
               </div>
               <div className='experienceSection'>
+                {/* Listing experiences section */}
                 <h3 className='sectionHeading'>Experience</h3>
                 {experience.map((experience) => (
                 <div className='experienceItem'>
