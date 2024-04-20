@@ -13,18 +13,23 @@ function Projects() {
   return (
     <>
         <section id="projects">
+            {/* Container for section */}
             <div className='projectsContainer'>
+                {/* Heading for section */}
                 <div className='projectsHeader'>
                     <div id='projectH2'>Projects</div>
                     <hr id='projectHr'></hr>
                     <p id='projectLine'>Here you will find some projects that I have done or I am currently working on</p>
                 </div>
+                {/* Projects container */}
                 <div className='projectsListContainer'>
                         {projects.map((project) => (
                         <div className='projectItem'>
                             <div className='projectImage'>
+                                {/* Image for project */}
                                 <img alt="gallery"src={project.image}/>
                             </div>
+                            {/* Getting the rest of the stuff describing the project */}
                             <div className='projectDetails'>
                                 <h3 className='projectTitle'>{project.title}</h3>
                                 <h4 className='projectSubtitle'>{project.subtitle}</h4>
