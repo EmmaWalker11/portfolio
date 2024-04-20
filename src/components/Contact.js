@@ -10,20 +10,27 @@ import React, { useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
+    // creating variables for each form field to later remove them after submitting
     const [name, setName] =useState("");
     const [email, setEmail] =useState("");
     const [message, setMessage] =useState("");
+
+    // creating reference to the form
     const form = useRef();
 
+    // sending email function. hooked up to Emailjs
     const sendEmail = (e) => {
+        // preventing default
         e.preventDefault();
     
+        // sending form
         emailjs
           .sendForm('service_ws4w95v', 'template_nho4dpm', form.current, {
             publicKey: 'U5-HPBSBQI1ijyJhc',
           })
           .then(
             () => {
+                // if form is sucessful alert the user and thank them with their name, then remove form inputs to clean it
               console.log('SUCCESS!');
               alert('Thank you for your email ' + name);
               setName('');

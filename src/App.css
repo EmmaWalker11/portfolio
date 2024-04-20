@@ -1,5 +1,10 @@
+/* FileName: App.css
+   Author: Emma Walker
+   Date last modified: 20/04/2024
+   Description: A css file for formatting the entire site, but mainly the App.js.
+*/
 
-/* Importing fonts */
+/* Importing fonts from sites for this site */
 /* Headings font */
 @import url('https://fonts.cdnfonts.com/css/svetze');
 /* font-family: 'Svetze', sans-serif; */ 
@@ -19,6 +24,7 @@
   --white: #F2EEE5;
 }
 
+/* Basic body styling for default. they will be changed per section */
 ul{
   list-style-type: none;
 }
@@ -34,12 +40,6 @@ body {
   color : var(--green);
   background-color: var(--secondary);
   font-family: 'Nunito', sans-serif;
-                                                
-                                                
-  /* background-image: url('/public/images/concreteTexture.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image file */
-  /* background-size: cover; /* Ensures that the background image covers the entire element */
-  /* background-repeat: no-repeat;  */
-
 } 
 
 h1{
