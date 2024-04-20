@@ -1,5 +1,14 @@
+//    FileName: Data.js
+//    Author: Emma Walker
+//    Date last modified: 20/04/2024
+//    Description: A file for storing the data of the website
+//     It includes lists for projects, experience, and skills
+
+// Imports for images
 import emmaWalkerWebsiteImg from '../assets/emmaWalkerWebsite.png';
 
+
+// List of projects, including a title, subtitle, description, image, and link
 export const projects = [
     {
       title: "Emma Walker's Portfolio",
@@ -11,6 +20,7 @@ export const projects = [
     },
   ];
 
+  // List of experiences, including a date, title, subtitle, description, and skills from experience
   export const experience = [
     {
       date: "July 2023 - present",
@@ -30,7 +40,7 @@ export const projects = [
       },
   ];
 
-  
+// List of skills
 export const skills = [
     "Java",
     "JavaScript",

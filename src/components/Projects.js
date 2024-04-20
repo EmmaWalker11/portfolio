@@ -1,6 +1,6 @@
 //    FileName: Projects.js
 //    Author: Emma Walker
-//    Date last modified: 19/04/2024
+//    Date last modified: 20/04/2024
 //    Description: A container for the projects section on the site.
 //     It allows for data to be taken from the data.js file to display.
 //     With the css images are on one side and text on the other with buttons linking to where the project is
