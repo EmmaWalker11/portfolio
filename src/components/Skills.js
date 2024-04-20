@@ -1,3 +1,9 @@
+//    FileName: Skills.js
+//    Author: Emma Walker
+//    Date last modified: 20/04/2024
+//    Description: A container for the skills section on the site.
+//     It includes a list from Data.js on the skills that I have
+
 import React from 'react'
 import { skills } from "./Data.js";
 import './Skills.css';

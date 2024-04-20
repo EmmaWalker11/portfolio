@@ -4,6 +4,7 @@
    Description: A css file for formatting the skills section of the site
 */
 
+/* container for the section */
 
 .skillsContainer{
     background-color: var(--darkgreen); 
@@ -15,6 +16,7 @@
     align-items: center;
 }
 
+/* working on the header of the section */
 .skillsHeader{
     text-align: center;
     color: var(--green);
@@ -27,6 +29,8 @@
     font-family: 'Svetze', sans-serif; 
     font-size: 200%;
 }
+
+/* formatting the skills that are shown to fit in a box */
 
 .skillsListContainer{
     display: flex;
