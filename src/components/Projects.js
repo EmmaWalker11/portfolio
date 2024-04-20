@@ -34,20 +34,10 @@ function Projects() {
                         </div>
                         ))}
                 </div>
-                {/* <div className='projectsListContainer'>
-                        {projects.map((project) => (<a href={project.link} key={project.image}>
-                        <div className='projectItem'>
-                            <div className='projectImage'>
-                                <img alt="gallery"src={project.image}/>
-                            </div>
-                            <div className='projectDetails'>
-                                <h3>{project.title}</h3>
-                                <h4>{project.subtitle}</h4>
-                                <p>{project.description}</p>
-                            </div>
-                        </div>
-                        </a>))}
-                </div> */}
+                {/* Remove when there are more up */}
+                <hr />
+                <div className='projectsHeader' id='moreSoon'>More projects coming soon!</div>
+                <hr />
             </div>
         </section>
     </>

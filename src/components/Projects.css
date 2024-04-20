@@ -4,6 +4,12 @@
    Description: A css file for formatting the projects section of the site
 */
 
+/* To remove soon */
+#moreSoon{
+    font-weight: bold;
+    font-size: 200%;
+}
+
 
 .projectsContainer{
     background-image: url('../assets/concreteTexture.jpg');
