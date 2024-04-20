@@ -3,6 +3,8 @@
    Date last modified: 19/04/2024
    Description: A css file for making a navigation bar. It can expand and fold with a hamburger menu
 */
+
+/* Container for the nav bar */
   
   .navBar{
     height: 100px;
@@ -13,6 +15,7 @@
     background-color: var(--secondary);
   }
 
+  /* Logo and name on the left */
   .navBar img{
     width: 80px;
   }
@@ -22,6 +25,8 @@
     align-items: center;
     font-size: 0.8rem;
   }
+
+  /* List of links to parts of the site and resume on the right */
 
   .navMenu {
     display: flex;
@@ -55,11 +60,12 @@
 
 
 
-/* now working on hamburger menu */
+/* making it so hamburger menu isnt shown by defaut */
 .hamburger {
     display: none;
 }
 
+/* Checking if we are close to mobile mode, if so then we display hamburger menu and hide the links until hamburger menu is clicked on */
 
 @media screen and (max-width: 940px){
     .navMenu{
