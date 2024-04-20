@@ -18,10 +18,12 @@
 .treesImage{
     display: block;
     width: 100%;
+    max-width: 100%;
     height: auto;
     object-fit: cover;
     text-align: center;
     transform: scale(1.55);
+    position: relative;
 }
 
 .imageTextOverlay{
@@ -66,5 +68,14 @@
 
     #softwareEngineeringStudent{
         font-size: 3vw;
+    }
+}
+
+/* If the screen gets too big, limiting the size of the image */
+@media screen and (min-width: 1300px) {
+    .treesImage {
+      max-width: 1750px; 
+      top: -50px;
+      /* transform: scale(2.2); */
     }
 }
