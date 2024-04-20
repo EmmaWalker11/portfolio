@@ -15,20 +15,10 @@ import Projects from './components/Projects'
 import Footer from './components/Footer';
 import IntroImage from './components/IntroImage';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
-
 
 function App() {
   return (
     <>
-        {/* <Router>
-            <NavBar />
-            <Routes>
-                <Route path="/" exact/>
-            </Routes>
-            
-        </Router> */}
         <main>
             <NavBar />
             <IntroImage />
